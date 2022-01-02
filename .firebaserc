@@ -1,13 +1,4 @@
 {
-  "targets": {
-    "ingreso-egreso-app-ee3bf": {
-      "hosting": {
-        "ingresos-egresos": [
-          "ingreso-egreso-app-ee3bf"
-        ]
-      }
-    }
-  },
   "projects": {
     "default": "ingreso-egreso-app-ee3bf"
   }
