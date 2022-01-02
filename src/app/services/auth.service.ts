@@ -47,7 +47,6 @@ export class AuthService {
   }
 
   crearUsuario(nombre: string, correo: string, password: string) {
-    // console.log({ nombre, correo, password });
     return this.auth
       .createUserWithEmailAndPassword(correo, password)
       .then(({ user }) => {
